@@ -1,0 +1,41 @@
+.school_luches {
+    &::before {
+        background-image: url(../img/schoolLuchesBG.jpg);
+    }
+
+    .lunch_day {
+        margin-top: 15px;
+
+        li {
+            margin-top: 0;
+        }
+    }
+
+    ol {
+        color: #31a943;
+        font-weight: 700;
+        padding-left: 20px;
+
+        li {
+            padding-left: 10px;
+
+            p {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .birthday_celebration {
+        padding-top: clamp(15px, 2.2vw, 30px);
+       h4{
+        color: #676767;
+       }
+    }
+    .embedded_link{
+        padding-top: clamp(15px, 2.2vw, 30px);
+        iframe{
+            width: 100%;
+            height: 350px;
+        }
+    }
+}

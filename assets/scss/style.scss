@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// 1. Base stuff
+@import 'base/fonts',
+'base/base',
+'base/typography';
+
+// 2. Page-specific styles
+@import 'views/home', 'views/admissions', 'views/tours', 'views/apply', 'views/fees', 
+'views/school_luches', 'views/school_transport', 'views/unifoms';
+
+// 3. Reponsive
+@import 'responsive';

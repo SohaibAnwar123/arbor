@@ -1,0 +1,16 @@
+.fees_page {
+    &::before {
+        background-image: url(../img/feesBG.jpg);
+    }
+
+    .faqs_content .faqs_text a {
+        color: #31a943;
+        border-bottom: 1px solid #31a943;
+        &:hover{
+            border-color: #f5e547;
+        }
+    }
+    .faqs_content ul{
+        margin-top:  clamp(18px, 3vw, 40px);
+    }
+}

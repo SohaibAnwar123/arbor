@@ -1,0 +1,24 @@
+.apply_page {
+    &::before {
+        background-image: url(../img/apply_page.jpg);
+    }
+
+    .faqs_content .faqs_text .hero_btn {
+        max-width: fit-content;
+        height: auto;
+        padding: 14px 20px;
+        border-radius: 25px;
+        border: 1px solid rgba(49, 169, 67, .5);
+        color: #31a943;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .34em;
+        margin-top: 20px;
+        margin-bottom: clamp(18px, 3vw, 40px);
+        text-transform: uppercase;
+        &:hover{
+            background: rgba(49,169,67,.2);
+            color: #fff;
+        }
+    }
+}

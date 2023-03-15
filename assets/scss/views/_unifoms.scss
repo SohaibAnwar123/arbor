@@ -1,0 +1,13 @@
+.school_uniforms{
+    &::before{
+        background-image: url(../img/uniforms.jpg);
+    }
+    .faqs_content ul p a{
+        &:hover{
+            text-decoration-color: #f5e547;
+        }
+    }
+    .faqs_content{
+        padding-bottom: clamp(30px, 5.2vw, 70px);
+    }
+}
